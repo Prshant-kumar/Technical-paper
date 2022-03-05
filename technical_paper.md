@@ -135,7 +135,7 @@ Because of the following advantages over  synchronous communication-
 <br><br><br><br>
 
 
-## 4. *Popular tools for Messaging Queue*
+## 5. *Popular tools for Messaging Queue*
 
 Some of the popular tools for messaging queue are-
 - Kafka
