@@ -13,7 +13,7 @@
 
 </p>
 
-
+<br><br><br><br><br>
 
 # TABLE OF CONTENT
 
@@ -22,6 +22,10 @@
   >-    Messaging Queue
   >-    Message Queue used models
   >-    Why Message queue is used
+  >-    Popular tools
+
+
+
 
 <br><br><br><br><br>
 
@@ -43,6 +47,8 @@
       Text message send to a friend who is not connected to a network, but receives message when connected to the network.
 
 
+<br><br><br><br>
+
 ## 2. *Messaging Queue*
 
 
@@ -63,6 +69,9 @@
   <img src="./images/Message queue defination.png" alt ="simple message queue architecture">
 
 </p>
+
+
+<br><br><br><br>
 
 ## 3. *Message Queue used models*
     There are two models in which message queues are used.
@@ -101,8 +110,40 @@
     *whereas in Pub/Sub model there are many subscriber to process different request in a single message*
 
 
+<br><br><br><br>
+
 
 ## 4. *Why Message queue is used*
 
+
+Message Queue is used to establish Asynchronous Communication.
+<br>
+Because of the following advantages over  synchronous communication-
+<br>
+  - Scalable-<br>
+  Can handle load increase (If the number of message increases, they are pushed to the end of the que for processing).
+  <br>
+  We dont have to cancel the request, insted take the request and delay it for some time.
+
+  - Higly available-<br>
+  If a consumer(server)/network fails there are other consumer(servers) to handle the process.
+  
+  - Durable- <br>
+  Once a request is made data is not lost until it is processed. 
+
+
+<br><br><br><br>
+
+
+## 4. *Popular tools for Messaging Queue*
+
+Some of the popular tools for messaging queue are-
+- Kafka
+- ACTIVEMQ
+- RabbitMQ
+- amaon SNS
+<br>
+[Refer for above](https://medium.com/double-pointer/kafka-vs-activemq-vs-rabbitmq-vs-amazon-sns-vs-amazon-sqs-vs-google-pub-sub-4b57976438db
+)
 
 
