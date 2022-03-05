@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  <img src="./MQ architecture.png" alt ="simple message queue architecture">
+  <img src="./images/MQ architecture.png" alt ="simple message queue architecture">
 
 </p>
 
@@ -60,7 +60,7 @@
 - And the request is carried out according to the message.
 
 <p align="center">
-  <img src="./Message queue defination.png" alt ="simple message queue architecture">
+  <img src="./images/Message queue defination.png" alt ="simple message queue architecture">
 
 </p>
 
@@ -75,7 +75,7 @@
     Example-<br>
     Sending an e-mail to a friend.That e-mail is processed by a single consumer and only once.
   <p align="center">
-    <img src="onetoone.jpg" alt ="One-To-One model">
+    <img src="./images/onetoone.jpg" alt ="One-To-One model">
 
   </p>
   2. Pub/Sub model-<br>
@@ -91,7 +91,7 @@
 
 
   <p align="center">
-    <img src="pubsub.png" alt ="Pub/Sub model">
+    <img src="./images/pubsub.png" alt ="Pub/Sub model">
 
   </p>
 
