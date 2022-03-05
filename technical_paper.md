@@ -144,5 +144,5 @@ Some of the popular tools for messaging queue are-
 - RabbitMQ
 - amazon SNS
 <br>
-[Refer for above](https://medium.com/double-pointer/kafka-vs-activemq-vs-rabbitmq-vs-amazon-sns-vs-amazon-sqs-vs-google-pub-sub-4b57976438db
+[Refer for above](https://medium.com/double-pointer/kafka-vs-activemq-vs-rabbitmq-vs-amazon-sns-vs-amazon-sqs-vs-google-pub-sub-4b57976438db)
 
