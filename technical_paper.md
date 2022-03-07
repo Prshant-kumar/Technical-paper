@@ -160,12 +160,12 @@ Some of the popular tools for messaging queue are-
 
 ## 6. *Enterprise Service Bus(ESB)*
 
-ESB is a platform that is designed to integrate various application together over a bus like interface.ESB allows many system to connect and communicate to each other irrespective of the fact that the systems are connected physically.As the numer of system increases there is no need to increase the number of communicating channel, we just need to connect the new server to the esb and tha new server has total access to the ESB as the others.
+ESB is a platform that is designed to integrate various applications together over a bus-like interface. ESB allows many systems to connect and communicate with each other irrespective of the fact that the systems are connected physically. As the number of systems increases, there is no need to increase the number of communicating channels, we just need to connect the new server to the ESB and the new server has total access to the ESB as the others.
 
- The use  of ESB is to establish a communication channel between applications working in different format, different protocole, provide security to the data flowing in the communicating channel etc.
+ The use of ESB is to establish a communication channel between applications working in a different format, different protocols, provide security to the data flowing in the communicating channel, etc.
 
 
-There are two types of communicating channel.
+There are two types of communication channels.
 1.  Point-to-Point integration-<br>
     In point to point integration there is a communication link between each system.Every system is connected to every other system through a communication link.
 <p align="center">
@@ -173,7 +173,7 @@ There are two types of communicating channel.
 
   </p>
   
-  - The major drawback in this communication structure is that, if there is a single increase in the number of application(service) we need to establish the communication to every other application(server), which will result in increase of cost, mess to find out the specific communicating link and many more.
+  - The major drawback in this communication structure is that, if there is an increase in the number of applications(service) we need to establish the communication to every other application(server), which will result in an increase in cost, a mess to find out the specific communicating link and many more.
 
 2. ESB(Enterprise service bus)-<br>
     ESB is a single communication channel between all the communicating servers. It is smart enough to establish communication between different servers through a single communicating channel.
@@ -182,7 +182,7 @@ There are two types of communicating channel.
 
   </p>
 
-- In this structure any number of additional system are installed, they need to be added to the ESB and that will save the cost, time, connection complexit and many more.
+- In this structure any number of additional systems are installed, they need to be added to the ESB and that will save the cost, time, connection complexity, and many more.
 
 
 
@@ -191,8 +191,8 @@ There are two types of communicating channel.
 ESB Provides following functionalities-
 
 1. Decoupling<br>
-ESB transfer the data by the producer to the server who has to access tha message by decoupling the requirement of the producer.<br>
-Ex- The message by the producer can have different requirement, so ESB decouples those requirements and send the request to the server(consumer) which is ment to process that request and also converts the message in desired format of the server.
+ESB transfer the data by the producer to that server who has to access the message by decoupling the requirement of the producer.<br>
+Ex- The message by the producer can have a different requirement, so ESB decouples those requirements and send the request to the server(consumer) which is meant to process that request and also converts the message in the desired format of the server.
 
 2. Transport Protocol Conversion<br>
 ESB gives us the ability to accept one input protocol and communicate with another service provider on a different protocol.
@@ -200,30 +200,30 @@ ESB gives us the ability to accept one input protocol and communicate with anoth
 3. Message Enhancement<br>
 ESB allows us to add additional information to the message.
 
-    For example, changing date format of incoming message or appending informational data to messages.
+    For example, changing the date format of an incoming message or appending informational data to messages.
 
 4. Message Transformation<br>
-ESB lets you transform an incoming message into several outgoing formats.Mostly the data flowing is in XML format
+ESB lets you transform an incoming message into several outgoing formats. Mostly the data flowing is in XML format
 
     For example, XML to JSON, XML to Java objects.
 
 5. Routing<br>
 ESB has the ability to redirect a client request to a particular service provider based on the information that which message(service) has to be delivered to which server.<br>
-    Ex- Producer sends data to ESB and ESB knows that Who should consume the data, in what format,which service.
+    Ex- Producer sends data to ESB and ESB knows who should consume the data, in what format, which service.
 
 6. Security<br>
 There is data flowing in the ESB that everyone has access to.
 
-    ESB protects services from unauthorized access.The producer needs to provide credentials, so that only the one who has to access the data can retreve that data from the ESB.
+    ESB protects services from unauthorized access. The producer needs to provide credentials so that only the one who has to access the data can retrieve that data from the ESB.
 
 
 <br><br><br><br>
 
 # SUMMARY
 The above content is a topic on System Design.
-This was a brief discription about Messaging Queue and Enreprise Service Bus.Both are essential and also a part of a system design communication.<br>
-Message Queue provides storage for the communication system between producer and consumer.Whereas ESB is a communication channel between several system(application) to communicate or transfer information in any format.<br>
-All the above content is reffered and thorolly understood by visiting various platform using serch engine(Google Chrome) and Youtube which helped to understood the topics.
+This was a brief description of Messaging Queue and Enterprise Service Bus. Both are essential and also a part of system design communication.<br>
+Message Queue provides storage for the communication system between producer and consumer. Whereas ESB is a communication channel between several systems(applications) to communicate or transfer information in any format.<br>
+All the above content is referred to and thoroughly understood by visiting various platforms using a search engine(Google Chrome) and Youtube which helped me to understand the topics.
 
 <br><br><br><br>
 
